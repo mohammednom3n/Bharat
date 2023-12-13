@@ -132,7 +132,7 @@ body {
 .email__label {
   color: black;
   position: absolute;
-  font-size: x-large;
+  font-size: large;
   top: 28%;
   left: 4%;
   color: rgb(153, 149, 149);
@@ -149,8 +149,8 @@ body {
 
 .form__container {
   background-color: rgba(0,0,0,0.7);
-  width: 90%;
-  height: 70px;
+  width: 70%;
+  height: 60px;
   margin-top: 1.5%;
   right: 1%;
   border-radius: 6px;
@@ -159,7 +159,7 @@ body {
 
 .email__input:focus + .email__label {
   top: 0.2rem;
-  font-size: 10px;
+  font-size: 8px;
 }
 
 .email__input:not(:placeholder-shown).email__input:not(:focus) + .email__label {
@@ -177,7 +177,7 @@ body {
   color: white;
   padding: 0.8rem 1.2rem;
   border-radius: 6px;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 1px;
   height: 70px;
   margin-top: 1.5%;
@@ -380,12 +380,12 @@ footer {
     transform: translate(-20%, -20%);
   }
   .hero__title {
-    font-size: 3.5rem;
+    font-size: 3rem;
   
   }
   .hero__subtitle,
   .hero__description {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .feature {
@@ -473,8 +473,8 @@ footer {
     gap: 1px;
   }
   .primary__button {
-    height: 70px;
-    width: 240px;
+    height: 60px;
+    width: 190px;
     
   }
 
