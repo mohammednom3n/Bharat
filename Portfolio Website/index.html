@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Noman</title>
+    <link rel="shortcut icon" class="rounded-circle" type="image/png" href="./img/Web-logo-img.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1972eecd36.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+    <!--------- start header ----------->
+    <div class="header" id="header">
+        <div class="container">
+            <nav>
+                <img src="./img/Web-logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-circle-xmark" style="color: #2B29A7 ;" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" style="color: #2B29A7 ;" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h5>I'm</h5>
+            <h2><span>Mohammed </span>Noman</h2>
+            <p>Software and Web Developer</p>
+            <a href="#contact">Contact Me</a>
+            </div>
+        </div>
+    </div>
+    <!-------- end header ------------ -->
+    <!------------ star about  ------------->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/about-me-img.png" alt="" class="about-me-img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p><span>H</span>ighly motivated and dedicated student pursuing a bachelor's degree in software Engineering at Delhi technological university with a strong passion for technology and strong commitment to learning . I am eager to take on new challenges and broaden my knowledge on different technology aspects . continuously seek opportunities to expand my skills, learn more and be a part of different teams and communities. Aiming to make a significant impact as a software developer.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience </p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br> Designing Web Interface</li>
+                            <li><span>Web development</span> <br> Web App development</li>
+                            <li><span>Software development</span> <br> Computer software based applications</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX and Web development intern</span> <br>CodSoft</li>
+                            <li><span>Web Development intern</span> <br>Meshkat School Foundation</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Secondary Studies</span> <br> Al-amjad Secondary School</li>
+                            <li><span>Software Engineering</span> <br> Delhi Technological University</li>
+
+                        </ul>
+                    </div>
+                
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-----------end of about section------------------>
+
+    <!----------------- start services  ------------------------>
+
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2>
+                    <p>We craft engaging user experiences through intuitive interfaces, ensuring your  products are   visually stunning and  user-friendly, resulting in increased customer satisfaction.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>specializes in creating responsive and scalable websites, tailoring solutions to meet your specific needs, from e-commerce platforms to dynamic corporate sites, to help you establish a strong online presence.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uncharted"></i>
+                    <h2>Software Development</h2>
+                    <p>Transform your innovative ideas into powerful, user-friendly software solutions.  craft cutting-edge applications that drive efficiency and engagement.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+        <!----------------- end services  ------------------------>
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="./img/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        
+                    </div>
+                   
+                </div>
+                <div class="work">
+                    <img src="./img/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="../Proj_2/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/work-3.png" alt="">
+                  
+                </div>
+            </div>
+                    <!-- we can add see more button here if we want to display more projects i.e github -->
+        </div>
+    </div>
+
+    <!-- contact  -->
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-1">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> mohammednom3n@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +91 9599110060</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mohammednom3n/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/mohammednom3n/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/mohammednom3n"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/mohammednom3n/"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="cv">
+                        <a><button type="CV"> Download CV</button></a>
+
+                    </div>
+
+                </div>
+                    
+                    <div class="contact-2">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name " required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                           <div class="submit-btn">
+                            <button type="submit" class="btn btn2">Submit</button>
+
+                           </div>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+             </div>
+        </div>
+        <div class="copyright">
+            
+        </div>
+    </div>
+
+
+
+<!------------------- our javascript ----------->
+
+<!------------- about (for the about section )  ---------------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+           
+        }
+        
+
+    </script>
+    <!-- -------------- end about  -------------->
+
+<!-- for the menu control  -->
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+   
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px" ;
+
+    }
+
+   </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzOJP9XvwhX360myiRpF616KKFgfiqtAUWuXPmoFvAzLtbmH89gCWgjj2-p3vF5K9c/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    <!------------- our javascript  -------------------->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>    
+</body>
+</html>
